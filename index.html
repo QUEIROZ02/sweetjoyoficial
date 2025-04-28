@@ -4,11 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sweet Joy Confeitaria</title>
+ 
   <style>
     body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #ffffff; color: #333; scroll-behavior: smooth; }
     header { background: #a7e3e3; text-align: center; padding: 20px; }
-    nav a { margin: 0 15px; text-decoration: none; color: #fff; font-weight: bold; }
+    <!-- Seção da Logo Animada Mais Chique -->
+<section id="logo-sweetjoy" style="background-color: #d2f6f6; text-align: center; padding: 100px 20px;">
+  <img src="logo.png" alt="Sweet Joy Confeitaria" style="
+    width: 400px;
+    animation: zoomSlideIn 2s ease forwards;
+    opacity: 0;
+    transform: translateY(-50px) scale(0.5);
+  ">
+</section>
+
+<!-- Animação CSS -->
+<style>
+@keyframes zoomSlideIn {
+  0% {
+    transform: translateY(-50px) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  nav a { margin: 0 15px; text-decoration: none; color: #fff; font-weight: bold; }
     section { padding: 60px 20px; text-align: center; }
     footer { background-color: #f8c6d8; text-align: center; padding: 15px; font-size: 14px; }
     form input, form textarea { display: block; margin: 10px auto; padding: 10px; width: 80%; max-width: 400px; border-radius: 8px; border: 1px solid #ccc; }
@@ -24,7 +44,19 @@
     .whatsapp-float { background-color: #25d366; }
     .agendar-float { background-color: #f8c6d8; bottom: 100px; font-size: 12px; font-weight: bold; color: #333; display: flex; justify-content: center; align-items: center; text-decoration: none; transition: background-color 0.3s; }
     .agendar-float:hover { background-color: #ffc2d9; }
-    .btn-topo { display: none; position: fixed; bottom: 170px; right: 20px; background-color: #f8c6d8; color: #333; border: none; padding: 10px; border-radius: 50%; font-size: 20px; cursor: pointer; z-index: 100; box-shadow: 2px 2px 5px #999; }
+    .<a href="https://instagram.com/confeitaria.sweetjoy" target="_blank" style="
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8c6d8;
+  color: #333;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;">
+  🌸 Siga no Instagram
+</a>
+
+   .btn-topo { display: none; position: fixed; bottom: 170px; right: 20px; background-color: #f8c6d8; color: #333; border: none; padding: 10px; border-radius: 50%; font-size: 20px; cursor: pointer; z-index: 100; box-shadow: 2px 2px 5px #999; }
   </style>
 </head>
 <body>
@@ -42,23 +74,38 @@
 </header>
 
 <section id="home">
-  <h2>Bem-vindo à Sweet Joy</h2>
-  <p>Doces que trazem felicidade em cada mordida!</p>
+  <h2>Bem-vindo á sweet joy </h2>
+  <p>"Sinta o sabor da felicidade em cada detalhe."</p>
 </section>
 
 <section id="sobre">
   <h2>Sobre Nós</h2>
-  <p>Especializados em criações doces incríveis, entregues com amor até a sua casa.</p>
+  <p> Doces que abraçam a alma! A Sweet Joy é feita de amor, sonhos e sabores inesquecíveis.
+Cada brigadeiro, trufa carrega uma história: a sua celebração, a sua conquista, o seu momento único.
+ entregamos mais do que doces — entregamos carinho!</p>
 </section>
 
 <section id="servicos">
   <h2>Nossos Serviços</h2>
-  <p>Doces personalizados, bolos decorados, lembrancinhas e muito mais!</p>
+  <p><section id="servicos">
+  <h2>Nossos Serviços</h2>
+  <p>Na Sweet Joy, adoçamos momentos especiais com muito carinho e qualidade. Conheça nossos serviços:</p>
+  
+  <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 1.8;">
+    
+    <li>🍬 Brigadeiros gourmet com recheios especiais</li>
+    <li>🍫 Trufas artesanais feitas com ingredientes selecionados</li>
+    <li>🎁 Caixas presenteáveis de doces finos</li>
+    <li>🎉 Kits de festa para momentos inesquecíveis</li>
+    <li>🚚 Entrega via delivery para Uberlândia!</li>
+  </ul>
 </section>
 
-<section id="portfolio">
-  <h2>Portfólio</h2>
-  <div class="portfolio-gallery" id="galeria">
+</section>
+
+<section id="produtos">
+  <h2>PRODUTOS</h2>
+  <div class="PRODUTOS-gallery" id="galeria">
     <img src="https://images.unsplash.com/photo-1614707267535-5c8e64a96b8e?crop=entropy&cs=tinysrgb&fit=crop&h=300&w=400" alt="Doce 1">
     <img src="https://images.unsplash.com/photo-1599785209707-947ad0fb9466?crop=entropy&cs=tinysrgb&fit=crop&h=300&w=400" alt="Doce 2">
     <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=crop&h=300&w=400" alt="Doce 3">
